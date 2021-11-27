@@ -1,0 +1,7 @@
+<h1>contador = {{ contador }}</h1>
+
+<hr />
+
+<app-button-add [contador]="contador" (onAdd)="handleCount($event)" ></app-button-add>
+<app-button-dis [contador]="contador" (onDis)="handleDis($event)"></app-button-dis>
+
